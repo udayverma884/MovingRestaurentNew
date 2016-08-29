@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_enter_menu_item"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Enter Food Item" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="About Us"
+            />
+        <item
+            android:id="@+id/active_deactive"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Active/Deactive"
+            />
+
+        <item
+            android:id="@+id/my_menu"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="My Menu Item"
+            />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Logout"
+            />
+    </group>
+
+
+
+</menu>
